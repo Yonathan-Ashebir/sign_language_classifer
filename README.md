@@ -60,13 +60,16 @@ class CNN(nn.Module):
 1. Clone the repository:
 ```bash
 git clone https://github.com/Yonathan-Ashebir/sign_language_classifer.git
-cd yourrepo
+cd sign_language_classifer
 ```
 
 2. Install dependencies:
 ```bash
-pip install -r requirements.txt
+poetry install --no-root
 ```
+if opening the whole project (repo).
+
+Optionally open just open the notebook and run it will attempt installing all the necessary dependencies (although this might not always work, and requires `Restarting the kernel`)
 
 ## Usage
 
