@@ -1,9 +1,10 @@
 # Sign Language Segmentation & Classification Experiment
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Yonathan-Ashebir/sign_language_classifer/blob/main/main.ipynb)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Yonathan-Ashebir/sign_language_classifer/blob/main/main.ipynb)&nbsp; [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/Yonathan-Ashebir/sign_language_classifer/blob/main/main.ipynb)
 
 <div align="center">
-  <!-- <img src="https://storage.googleapis.com/kaggle-datasets-images/3258/5339/4e4f183e7a5e0a8d7a1c4a8f8d0a8b8d/dataset-cover.jpg" width="400" alt="ASL Dataset Example"> -->
+  <img src="./amer_sign2.png" width="400" alt="ASL Dataset Example">
   <p>American Sign Language (ASL) Alphabet Dataset</p>
 </div>
 
@@ -64,12 +65,18 @@ cd sign_language_classifer
 ```
 
 2. Install dependencies:
+
+Easiest way to get started:
+```bash
+python run.py # Works on both windows (conda) & linux
+```
+<b>OR</b> 
 ```bash
 poetry install --no-root
+`poetry env activate`
+jupyter notebook main.py
 ```
-if opening the whole project (repo).
-
-Optionally open just open the notebook and run it will attempt installing all the necessary dependencies (although this might not always work, and requires `Restarting the kernel`)
+Optionally, if you have downloaded the notebook <b>file only</b>, just run it and it will attempt to install all the necessary dependencies (although this is not guaranteed to work and requires `restarting the kernel` after the installation phase).
 
 ## Usage
 
