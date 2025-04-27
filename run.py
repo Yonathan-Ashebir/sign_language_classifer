@@ -24,7 +24,7 @@ def create_linux_environment():
     
     # Launch Jupyter notebook
     print("Starting Jupyter notebook...")
-    subprocess.run([venv_python, "-m", "jupyter", "notebook", "main.py"], check=True)
+    subprocess.run([venv_python, "-m", "jupyter", "notebook", "main.ipynb"], check=True)
 
 def create_windows_environment():
     env_name = "my_env"
@@ -50,7 +50,7 @@ def create_windows_environment():
         f"conda activate {env_name}",
         "pip install poetry",
         "poetry install --no-root",
-        "python -m jupyter notebook main.py"
+        "python -m jupyter notebook main.ipynb"
     ]
     
     # On Windows, we need to run these commands in a shell
