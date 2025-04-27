@@ -6,15 +6,23 @@ authors = [
     {name = "yoni_ash",email = "yonatha12345678910@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.12,<4"
+requires-python = "3.12.*"
 dependencies = [
     "torch (>=2.7.0,<3.0.0)",
     "pandas (>=2.2.3,<3.0.0)",
     "matplotlib (>=3.10.1,<4.0.0)",
-    "kagglehub (>=0.3.12,<0.4.0)"
+    "kagglehub (>=0.3.12,<0.4.0)",
+    "ipywidgets (>=8.1.6,<9.0.0)",
+    "opencv-python (>=4.11.0.86,<5.0.0.0)",
+    "mediapipe (>=0.10.21,<0.11.0)"
 ]
 
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+nbformat = "^5.10.4"
+ipykernel = "^6.29.5"
+

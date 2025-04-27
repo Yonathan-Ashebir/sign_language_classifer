@@ -78,12 +78,5 @@ app.*.map.json
 
 ## Web
 
-
-## Python
-*.pkl
-
-## Data
-*.png
-*.PNG
-*.csv
-*.zip
+## For Project
+/data
