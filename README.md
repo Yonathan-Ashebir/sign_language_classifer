@@ -3,7 +3,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Yonathan-Ashebir/sign_language_classifer/blob/main/main.ipynb)
 
 <div align="center">
-  <img src="https://storage.googleapis.com/kaggle-datasets-images/3258/5339/4e4f183e7a5e0a8d7a1c4a8f8d0a8b8d/dataset-cover.jpg" width="400" alt="ASL Dataset Example">
+  <!-- <img src="https://storage.googleapis.com/kaggle-datasets-images/3258/5339/4e4f183e7a5e0a8d7a1c4a8f8d0a8b8d/dataset-cover.jpg" width="400" alt="ASL Dataset Example"> -->
   <p>American Sign Language (ASL) Alphabet Dataset</p>
 </div>
 
