@@ -77,6 +77,7 @@ app.*.map.json
 
 
 ## Web
-
+#python 
+.ipynb*
 ## For Project
 /data
